@@ -70,10 +70,7 @@ YES ─────→ Output spike
 
 ---
 
-## 4. Connection to UT Dallas Research
-
-This research direction is closely related to work at The University of Texas at Dallas by **Joseph S. Friedman** and the NeuroSpinCompute Laboratory.
-
+The UT Dallas research group also investigates neuromorphic hardware using emerging technologies such as spintronics, magnetic devices, and memristive technologies.
 Friedman's research focuses on neuromorphic computing and the development of efficient computing paradigms using nanoscale phenomena. His research specifically discusses artificial neurons implementing the leaking, integrating, and firing behavior associated with the LIF model.
 
 Reference:
@@ -82,7 +79,7 @@ Joseph S. Friedman, NeuroSpinCompute Laboratory, University of Texas at Dallas.
 
 https://personal.utdallas.edu/~joseph.friedman/
 
-The UT Dallas research group also investigates neuromorphic hardware using emerging technologies such as spintronics, magnetic devices, and memristive technologies.
+
 
 ---
 
