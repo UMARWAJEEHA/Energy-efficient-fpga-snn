@@ -12,7 +12,7 @@ Input pattern:
 
 Observation:
 
-[Write what happened]
+
 
 ## Experiment B
 
@@ -21,7 +21,7 @@ Input pattern:
 
 Observation:
 
-[Write what happened]
+
 
 ## Experiment C
 
@@ -30,7 +30,7 @@ Input pattern:
 
 Observation:
 
-[Write what happened]
+
 
 ## Conclusion
 
