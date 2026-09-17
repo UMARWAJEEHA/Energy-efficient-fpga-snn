@@ -60,6 +60,43 @@ FPGA Hardware Architecture
 Resource / Latency / Accuracy / Energy Analysis
 ```
 
+
+## 🏗️ Research Architecture
+
+The proposed research architecture follows the pipeline below:
+
+```mermaid
+flowchart LR
+
+    A["Input Data"] --> B["Spike Encoding"]
+    B --> C["Spiking Neural Network"]
+    C --> D["LIF Neuron Processing"]
+    D --> E["Spike-Based Inference"]
+    E --> F["FPGA Hardware Architecture"]
+    F --> G["Resource / Latency / Accuracy / Energy Analysis"]
+
+    H["Hardware–Software Co-Design"] -.-> C
+    H -.-> F
+
+    D --> D1["Membrane Potential"]
+    D --> D2["Threshold"]
+    D --> D3["Output Spikes"]
+
+    classDef input fill:#E8F1FF,stroke:#2563EB,stroke-width:2px;
+    classDef compute fill:#EEF2FF,stroke:#4F46E5,stroke-width:2px;
+    classDef hardware fill:#ECFDF3,stroke:#16A34A,stroke-width:2px;
+    classDef analysis fill:#FFF7ED,stroke:#EA580C,stroke-width:2px;
+    classDef detail fill:#F8FAFC,stroke:#64748B,stroke-width:1px;
+
+    class A,B input;
+    class C,D,E compute;
+    class F hardware;
+    class G analysis;
+    class D1,D2,D3,H detail;
+```
+
+
+
 ## 📊 Evaluation Objectives
 
 The research is oriented toward evaluating SNN implementations using:
