@@ -64,3 +64,4 @@ print(
         agreement(float_spikes, six_bit_spikes)
     )
 )
+print("VERSION: 6-bit comparison enabled")
