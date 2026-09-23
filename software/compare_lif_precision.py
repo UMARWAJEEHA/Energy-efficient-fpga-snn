@@ -65,3 +65,4 @@ print(
     )
 )
 print("VERSION: 6-bit comparison enabled")
+)
