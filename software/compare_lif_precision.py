@@ -66,3 +66,5 @@ print(
 )
 print("VERSION: 6-bit comparison enabled")
 )
+print("6-bit spike count:", sum(six_bit_spikes))
+print("6-bit output agreement:", agreement(float_spikes, six_bit_spikes))
